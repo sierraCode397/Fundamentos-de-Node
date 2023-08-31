@@ -19,3 +19,6 @@ hola("Isaac", function (nombre) {
         console.log("Terminando proceso...");
     } );
 });
+
+/* hola("Isaac", function () {});
+adios("Isaac", function () {} ); */
