@@ -1,6 +1,6 @@
 const http = require("http");
 
-http.createServer(router).listen(3000);
+http.createServer(router).listen(3000); //Esto final son los Puertos
 
 function router(req,res) {
     console.log("Nueva peticion");
