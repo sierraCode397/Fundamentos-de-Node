@@ -31,6 +31,9 @@ console.log(os.tmpdir());
 console.log(os.hostname());
 console.log(os.networkInterfaces());
 
+console.table(os.cpus())
+console.table(os.networkInterfaces())
+
 
 
 
