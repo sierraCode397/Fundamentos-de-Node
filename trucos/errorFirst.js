@@ -2,7 +2,9 @@ function asincrona(callback) {
     setTimeout(() => {
         try{
             let a = 3 + z;
-            callback(null, a);
+
+            //Aqui se asignan las posiciones de los tipos de valor (error y data)
+            callback(null, a); 
         }catch (e){
             callback(e, null); //O tambien callback(e);
         }
