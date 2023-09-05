@@ -35,7 +35,7 @@ const Transform = stream.Transform;
 function Mayus() {
     Transform.call(this);//Se inicializa el llamado a la transformacion
 }
-
+//this indica que se hara dentro den metodo MAYUS
 util.inherits(Mayus, Transform);
 
 Mayus.prototype._transform = function(chunk, codif, cb) {
