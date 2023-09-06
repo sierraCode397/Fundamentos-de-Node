@@ -4,7 +4,7 @@ const server = require('gulp-server-livereload');
 gulp.task('build', function (cb) {
     console.log('Construyendo el sitio');
     setTimeout(cb, 1200);
-    cb();
+    //cb();
 });
 
 gulp.task('serve', function(cb) {
